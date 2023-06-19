@@ -1,4 +1,4 @@
-![React Jobly](frontend/public/react-jobly.png)
+![React Jobly](frontend/public/jobly.gif)
 # Jobly
 
 Jobly is a web application built using React that allows users to search and apply for job listings. Users can sign up, log in, and update their profile information. 
