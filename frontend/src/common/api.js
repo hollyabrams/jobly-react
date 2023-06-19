@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = process.env.REACT_APP_BASE_URL || 'https://jobly-backend-rxgq.onrender.com/';
+const BASE_URL = process.env.REACT_APP_BASE_URL || 'http://localhost:3001';
 
 console.log(process.env.REACT_APP_BASE_URL);
 
