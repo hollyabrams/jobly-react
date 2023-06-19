@@ -27,6 +27,11 @@ app.use("/companies", companiesRoutes);
 app.use("/users", usersRoutes);
 app.use("/jobs", jobsRoutes);
 
+app.get("/", (req, res) => {
+  res.setHeader("Access-Control-Allow-Credentials", "true");
+  res.send("API is running...");
+});
+
 
 /** Handle 404 errors -- this matches everything */
 app.use(function (req, res, next) {
